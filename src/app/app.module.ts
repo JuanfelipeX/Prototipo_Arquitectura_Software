@@ -8,12 +8,14 @@ import { IniciarSesionComponent } from './components/iniciar-sesion/iniciar-sesi
 import { ErrorNoEncontradoComponent } from './components/error-no-encontrado/error-no-encontrado.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { CarritoComprasComponent } from './components/carrito-compras/carrito-compras.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IniciarSesionComponent,
     ErrorNoEncontradoComponent,
+    CarritoComprasComponent,
   ],
   imports: [
     BrowserModule,
